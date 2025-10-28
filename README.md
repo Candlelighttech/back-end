@@ -1,73 +1,156 @@
-# Welcome to your Lovable project
+<div align="center">
 
-## Project info
+# 🚀 CandlelightTechnology.com Dashboard  
 
-**URL**: https://lovable.dev/projects/6f07d24d-4815-4d4c-8a8d-f1e34cd2e924
+### 🌟 AI-Powered Website Builder & Content Management Platform
 
-## How can I edit this code?
+A **next-generation React + Tailwind CSS dashboard** designed for **AI-driven website creation, SEO analytics, and team collaboration** — built for **CandlelightTechnology.com**.
 
-There are several ways of editing your application.
+</div>
 
-**Use Lovable**
+## 🧠 Overview
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/6f07d24d-4815-4d4c-8a8d-f1e34cd2e924) and start prompting.
+**CandlelightTechnology.com Dashboard** is a futuristic, AI-first platform for building and managing websites with ease.  
+It includes everything from **AI-powered website generation** to **SEO analytics**, **team collaboration**, and **automated deployment** — all in one unified dashboard.
 
-Changes made via Lovable will be committed automatically to this repo.
+> ⚡ Designed with **React.js + Tailwind CSS**, built for scalability, performance, and beautiful user experience.
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## ✨ Features
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### 🔐 Authentication System
+- Login, Signup, and Logout with validation  
+- Demo account for full access  
+- Responsive design with neon-glow UI  
+- Confirmation modals & toast notifications  
 
-Follow these steps:
+### 🧭 Dashboard Layout
+- Collapsible Sidebar with active states  
+- Header with search, notifications, and user dropdown  
+- Animated transitions and responsive menu  
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### 🧩 10 Fully Functional Dashboard Sections
+| Section | Description |
+|----------|-------------|
+| **1. Dashboard Overview** | Real-time stats, activity feed, performance charts |
+| **2. Projects** | Create, duplicate, delete projects with version history |
+| **3. AI Website Builder** | Drag-and-drop builder, AI content generation |
+| **4. AI Assistant** | Chat-based AI tools for SEO and copywriting |
+| **5. Blog & Content Manager** | Rich text editor, post scheduling, SEO metadata |
+| **6. Export & Deployment** | Deploy via GitHub, Netlify, Vercel |
+| **7. SEO & Analytics** | Traffic graphs, keyword tracking, AI insights |
+| **8. Settings** | Profile, dark/light mode, preferences |
+| **9. Subscription & Billing** | Plans, invoices, payment methods |
+| **10. Team & Collaboration** | Invite members, assign roles, activity logs |
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+---
 
-# Step 3: Install the necessary dependencies.
-npm i
+## 🧪 Demo Account
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+**Credentials:**
+Email: demo@candlelighttech.com
+Password: Demo@1234
+
+markdown
+Copy code
+
+✅ Includes:
+- 5 sample projects  
+- 2 blog posts (draft + published)  
+- 3 team members with roles  
+- Analytics data with charts  
+- SEO recommendations  
+- Usage and billing stats  
+
+> No signup required — all demo data is stored locally via `localStorage`.
+
+---
+
+## 🧰 Tech Stack
+
+| Category | Tools Used |
+|-----------|------------|
+| **Frontend** | React.js + Vite |
+| **Styling** | Tailwind CSS |
+| **State Management** | Context API |
+| **Routing** | React Router v6 |
+| **Charts** | Recharts |
+| **Rich Editor** | React Quill |
+| **Animations** | Framer Motion |
+| **Drag & Drop** | react-dnd |
+| **Icons** | Heroicons / React Icons |
+| **Validation** | React Hook Form |
+| **Persistence** | LocalStorage |
+| **Notifications** | Custom Toast System |
+
+---
+
+## 🎨 Design System
+
+**Color Palette**
+| Role | Color |
+|------|--------|
+| Dark Base | `#070F2B` |
+| Primary | `#1B1A55` |
+| Accent | `#535C91` |
+| Highlight | `#9290C3` |
+
+**Typography**
+- Headings → Orbitron  
+- Body Text → Inter  
+
+**Visual Style**
+- Glassmorphism + Neon Glow  
+- Soft gradients and glows  
+- Rounded corners (`1rem – 1.5rem`)  
+- Particle or line-flow animated background  
+
+---
+
+## 📁 Folder Structure
+
+candlelight-dashboard/
+│
+├── public/
+│ ├── index.html
+│ └── favicon.ico
+│
+├── src/
+│ ├── assets/ # Icons, images, mock data
+│ ├── components/ # Reusable components (Button, Modal, Card, etc.)
+│ ├── contexts/ # Context API (Auth, Theme, Data)
+│ ├── hooks/ # Custom hooks
+│ ├── layouts/ # AuthLayout, DashboardLayout
+│ ├── pages/ # All 10 functional sections
+│ ├── routes/ # Protected and public routes
+│ ├── utils/ # Helpers, constants
+│ ├── App.jsx
+│ ├── main.jsx
+│ └── index.css
+│
+├── tailwind.config.js
+├── postcss.config.js
+├── package.json
+└── README.md
+
+yaml
+Copy code
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/Gajan-kaja/candlelight-dashboard.git
+cd candlelight-dashboard
+2️⃣ Install Dependencies
+bash
+Copy code
+npm install
+3️⃣ Start the Development Server
+bash
+Copy code
 npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/6f07d24d-4815-4d4c-8a8d-f1e34cd2e924) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+App runs at http://localhost:5173
