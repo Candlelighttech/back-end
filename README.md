@@ -46,15 +46,6 @@ It includes everything from **AI-powered website generation** to **SEO analytics
 
 ---
 
-## 🧪 Demo Account
-
-**Credentials:**
-Email: demo@candlelighttech.com
-Password: Demo@1234
-
-markdown
-Copy code
-
 ✅ Includes:
 - 5 sample projects  
 - 2 blog posts (draft + published)  
